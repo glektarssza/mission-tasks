@@ -1,9 +1,9 @@
-require("scripts.gui.task_view_header")
-require("scripts.gui.task_view_status")
-require("scripts.gui.task_view_assignee")
-require("scripts.gui.task_view_location")
-require("scripts.gui.task_view_comments")
-require("scripts.gui.task_view_subtasks")
+require("libs.gui.task_view_header")
+require("libs.gui.task_view_status")
+require("libs.gui.task_view_assignee")
+require("libs.gui.task_view_location")
+require("libs.gui.task_view_comments")
+require("libs.gui.task_view_subtasks")
 
 TaskView = {}
 
