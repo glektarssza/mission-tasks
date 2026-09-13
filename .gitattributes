@@ -9,3 +9,12 @@
 
 # All .cmd files are treated as text files with Windows-style line endings with UTF-8 encoding by default.
 *.ini text eol=crlf encoding=utf-8
+
+# Ignores for Factorio mod publishing
+.gitattributes export-ignore
+.gitignore export-ignore
+.github export-ignore
+.editorconfig export-ignore
+.shellcheckrc export-ignore
+.pre-commit-config.yaml export-ignore
+scripts export-ignore
