@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+  Change:
+    - Factorio 2.1 compatibility.
+
+---------------------------------------------------------------------------------------------------
 Version: 1.0.13
   Improvements:
     - Add pluralization support for time strings. (Eldrinn)
@@ -51,7 +56,7 @@ Version: 1.0.5
   Features:
     - Added a setting to customize the background opacity of the task list.
     - Added colors and icons to task types (To do, Doing, Done) for better visual distinction.
-  
+
   Bug Fixes:
     - Fixed an issue where the subtask title was not shown in the input field when editing.
 ---------------------------------------------------------------------------------------------------
