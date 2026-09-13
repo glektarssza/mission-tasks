@@ -5,7 +5,7 @@ TaskViewSubtasks = {}
 --- @param parent LuaGuiElement
 --- @param task table
 function TaskViewSubtasks.draw(player, parent, task)
-  local section = parent.add{ 
+  local section = parent.add{
     type = "frame",
     direction = "vertical",
     style = "deep_frame_in_shallow_frame_for_description",
@@ -29,7 +29,7 @@ function TaskViewSubtasks.draw(player, parent, task)
 
   local selected_task_id = State.get_selected_task_id(player)
   if sub_id and selected_task_id then text.text = Tasks.get_subtask(selected_task_id, sub_id).title end
-  local button = input_flow.add{ 
+  local button = input_flow.add{
     type="sprite-button",
     name="mission-tasks-add-subtask-button",
     sprite = "mission-tasks-plus-white-icon",
@@ -61,7 +61,7 @@ function TaskViewSubtasks.draw(player, parent, task)
     }
     cell.style.right_margin = 2
 
-    local cell = subtask_table.add{ 
+    local cell = subtask_table.add{
       type="label",
       caption=subtask.title,
       style="bold_label",
@@ -96,7 +96,7 @@ function TaskViewSubtasks.draw(player, parent, task)
     button.style.width = 28
 
     local button = cell.add {
-      type = "sprite-button", 
+      type = "sprite-button",
       name = "mission-tasks-subtask-decrease-priority-button-"..subtask.id,
       sprite = "mission-tasks-chevrons-down-white-icon",
       hovered_sprite  = "mission-tasks-chevrons-down-white-icon",
@@ -179,14 +179,14 @@ function TaskViewSubtasks.draw_edit_frame(player, task_id, subtask_id)
   ------------------------------------------------
 
   local bottom_frame_flow = GuiHelper.add_bottom_bar(frame, "mission-tasks-subtask-frame" )
-  bottom_frame_flow.add{ 
+  bottom_frame_flow.add{
     type="button",
     name="mission-tasks-confirm-edit-subtask",
     caption={"gui-task-view-subtasks.subtask-frame-confirm"},
     style="confirm_button",
   }
 
-  
+
 
   return frame
 end
@@ -265,7 +265,7 @@ function TaskViewSubtasks.handle_click(event, player, element, gui)
     if subtask_frame and subtask_frame.valid then subtask_frame.destroy() end
     return true
   end
-  
+
   return false
 end
 
@@ -281,6 +281,6 @@ function TaskViewSubtasks.handle_checked_state_changed_changed(player, element)
     Tasks.toggle_subtask(player, task_id, sub_id, element.state)
     return true
   end
-  
+
   return false
 end

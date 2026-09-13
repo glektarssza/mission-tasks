@@ -5,12 +5,12 @@ local confirm_callbacks = {}
 
 --- Shows a standard confirmation dialog
 --- @param player LuaPlayer
---- @param options table { 
----   title: string, 
----   description: string, 
----   confirm_name: string, 
----   on_confirm: function, 
----   on_cancel?: function, 
+--- @param options table {
+---   title: string,
+---   description: string,
+---   confirm_name: string,
+---   on_confirm: function,
+---   on_cancel?: function,
 ---   variant?: 'danger', 'success',
 ---   confirm_caption?: string
 --- }
@@ -90,9 +90,9 @@ end
 --- @param element LuaGuiElement
 function ConfirmDialog.handle_click(player, element)
   local callback = confirm_callbacks[player.index]
-  if not callback then 
+  if not callback then
     ConfirmDialog.destroy(player)
-    return false 
+    return false
   end
 
   local name = element.name

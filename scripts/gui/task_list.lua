@@ -15,7 +15,7 @@ local function make_item_caption(task)
       end
     end
   end
-  
+
   -- Usando concatenação ao invés de string.format para suportar strings localizadas
   return {
     "", -- String vazia indica concatenação de rich text
@@ -110,7 +110,7 @@ end
 --- @param element LuaGuiElement
 function TaskList.handle_selection_state_changed(player, element)
   if not player or not element or not element.valid then return end
-  
+
   local name = element.name
 
   if name:match("^mission%-tasks%-task%-listbox%-") then
@@ -139,14 +139,14 @@ function TaskList.handle_selection_state_changed(player, element)
     end
     return true
   end
-  
+
   return false
 end
 
 --- Redraws the Task List
 --- @param player? LuaPlayer
 function TaskList.redraw(player)
-  if not player then 
+  if not player then
     for _, p in pairs(game.players) do
       TaskList.redraw(p)
     end

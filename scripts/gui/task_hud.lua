@@ -4,9 +4,9 @@ function TaskHud.draw(player)
   local cfg = Settings.get(player.index)
 
   TaskHud.destroy(player)
-  
+
   if not cfg.show_tasks_hud then return end
- 
+
 
   local font_size = Settings.get(player.index).font_size
 
@@ -130,12 +130,12 @@ function TaskHud.draw(player)
   }
   container.style.maximal_width = 300
   container.style.vertically_stretchable = false
-  
+
   local unassigned_tasks = Tasks.get_tasks({
     status = { "todo", "doing" },
     assigned_id = { "nil" }
   })
-  
+
   if #unassigned_tasks > 0 then
     draw_caption(container, {"mission-tasks.warning-tasks-without-assignee-caption", #unassigned_tasks or 0})
   end

@@ -115,7 +115,7 @@ function TaskFrame.get_task_icon(player)
   local element = Gui.find_element(frame, "mission-tasks-task-frame-icon-selector")
   if not (element and element.valid and element.elem_value) then return end
   return element.elem_value
-  
+
 end
 
 --- Gets the title of the task.
@@ -160,7 +160,7 @@ function TaskFrame.handle_click(player, element)
     local desc    = TaskFrame.get_task_description(player)
     local status  = TaskFrame.get_task_status(player)
 
-    if not title or title == "" then 
+    if not title or title == "" then
       player.print({ "gui-task-frame.title-empty-warn" })
       return
     end
@@ -186,7 +186,7 @@ function TaskFrame.handle_click(player, element)
 
     local subtasks = nil
 
-    if selected_task_id then 
+    if selected_task_id then
       local original_task = Tasks.get_task(selected_task_id)
       icon = original_task.icon
       subtasks = original_task.subtasks
@@ -210,14 +210,14 @@ function TaskFrame.handle_click(player, element)
     local desc    = TaskFrame.get_task_description(player)
     local status  = TaskFrame.get_task_status(player)
 
-    if not title or title == "" then 
+    if not title or title == "" then
       player.print({ "gui-task-frame.title-empty-warn" })
       return
     end
 
     local selected_task_id = State.get_selected_task_id(player)
     if not selected_task_id then return end
-    
+
     Tasks.update_task(player, selected_task_id, {
       title  = title,
       desc   = desc,

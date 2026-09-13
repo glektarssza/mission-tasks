@@ -58,7 +58,7 @@ local function initialize_mod()
   TaskHud.redraw()
 end
 
-script.on_init(initialize_mod) -- novo jogo                    
+script.on_init(initialize_mod) -- novo jogo
 
 script.on_configuration_changed(initialize_mod) -- versão/gráfico mudou
 

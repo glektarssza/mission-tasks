@@ -22,7 +22,7 @@ end
 --- @param player LuaPlayer
 function State.ensure_player_state(player)
   if not player or not player.valid then return end
-  
+
   if not storage.player_states then
     storage.player_states = {}
   end
@@ -58,4 +58,4 @@ function State.update_pending_location_task_id(player, task_id)
   local player_state = State.ensure_player_state(player)
   player_state.pending_location_edit = task_id
   TaskView.redraw(player)
-end 
+end

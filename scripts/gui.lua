@@ -59,7 +59,7 @@ end
 
 function Gui.destroy_smart(player)
   local closed_secondary = Gui.close_all_secondaries_frames(player)
-  
+
   if not closed_secondary then
     Gui.destroy_main_frame(player)
   end
@@ -72,7 +72,7 @@ function Gui.refresh_tasks(player)
     TaskList.redraw()
     TaskHud.redraw()
   end
-  
+
   if (not player) then
     for _, player in pairs(game.players) do
       _update_player_tasks(player)

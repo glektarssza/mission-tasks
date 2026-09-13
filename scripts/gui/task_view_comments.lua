@@ -18,7 +18,7 @@ function TaskViewComments.draw(parent, task)
     style = "heading_2_label"
   }
 
-  local comment_textbox = section.add { 
+  local comment_textbox = section.add {
     type = "text-box",
     name = "mission-tasks-task-comment-textbox",
     word_wrap = true,
@@ -101,7 +101,7 @@ function TaskViewComments.draw(parent, task)
       local field = entry.field
       local caption = {}
 
-      if entry.field == "assigned_id" then 
+      if entry.field == "assigned_id" then
         local task_player = PlayerHelper.get_player_by_id(entry.to)
         if task_player and task_player.name then
           caption = {"gui-task-view-comments.modify-history-assignee", player_name, task_player.name}

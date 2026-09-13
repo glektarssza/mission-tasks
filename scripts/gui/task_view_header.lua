@@ -38,7 +38,7 @@ function TaskViewHeader.draw(parent, task)
 
 
   local button = header_button_flow.add {
-    type = "sprite-button", 
+    type = "sprite-button",
     name = "mission-tasks-decrease-priority-button",
     sprite = "mission-tasks-chevrons-down-white-icon",
     hovered_sprite = "mission-tasks-chevrons-down-white-icon",

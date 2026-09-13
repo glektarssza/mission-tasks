@@ -75,14 +75,14 @@ local function draw_task_hud_settings(parent, player)
 
   local flow = group.add { type = "flow", direction = "horizontal" }
   flow.style.vertical_align = "center"
-  flow.add { 
-    type = "label", 
-    direction = "horizontal", 
-    caption = { "gui-settings.hud-opacity-slider-label" } 
+  flow.add {
+    type = "label",
+    direction = "horizontal",
+    caption = { "gui-settings.hud-opacity-slider-label" }
   }.style.right_margin = 4
 
   local opacity_slider = flow.add {
-    type = "slider", 
+    type = "slider",
     name = "mission-tasks-setting-hud-opacity",
     value = config.hud_opacity,
     minimum_value = 0,
@@ -152,7 +152,7 @@ local function draw_tasks_settings(parent)
   group.add { type = "label", caption = { "gui-settings.tasks-group-caption" }, style = "heading_2_label" }
 
   local table = group.add { type = "table", column_count = 2 }
-  
+
   local label = table.add { type = "label", caption = { "gui-settings.clear-tasks-label" } }
   label.style.horizontally_stretchable = true
 
@@ -199,7 +199,7 @@ local function draw_settings(player, parent)
   -----------------------------------------------------------------------------
   -- Content
   -----------------------------------------------------------------------------
-  
+
   draw_task_hud_settings(left_flow, player)
   draw_import_export_settings(right_flow)
   draw_tasks_settings(right_flow)
@@ -323,7 +323,7 @@ function SettingsFrame.handle_selection_state_changed(player, element)
     Settings.set(player.index, "font_size", val)
     return true
   end
-  
+
   return false
 end
 
@@ -341,7 +341,7 @@ function SettingsFrame.handle_gui_value_changed(player, element)
     if textfield and textfield.valid then
       textfield.text = tostring(val) .. "%"
     end
-    
+
     TaskHud.redraw(player)
     return true
   end

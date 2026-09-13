@@ -101,7 +101,7 @@ function Tasks._update_field(task, field, new_value, player_id, record)
   if task[field] ~= new_value then
     if record then record_history(task, player_id, field, task[field], new_value) end
     task[field] = new_value
-  
+
     update_map_tag()
   end
 end
@@ -276,7 +276,7 @@ end
 function Tasks.update_status(player, task_id, status)
   local index, task = get_task_or_error(task_id)
   if not task then return end
-  Tasks._update_field(task, "status", status, player.index, true)  
+  Tasks._update_field(task, "status", status, player.index, true)
   if status == StatusEnum.DONE then
     Tasks.update_show_on_map(player, task_id, false)
   end
@@ -363,7 +363,7 @@ function Tasks.get_location(task_id)
 end
 
 --- Clears all tasks
---- @return nil 
+--- @return nil
 function Tasks.clear_tasks()
   for _, task in pairs(storage.tasks) do
     if task.map_tag and task.map_tag.valid then
@@ -466,12 +466,12 @@ end
 --- Add a subtask to a task
 --- @param player LuaPlayer
 --- @param task_id number
---- @param title string 
+--- @param title string
 function Tasks.add_subtask(player, task_id, title)
   local _, task = get_task_or_error(task_id); if not task then return end
   task.subtasks = task.subtasks or {}
   local sub_id = generate_subtask_id(task)
-  
+
   table.insert(task.subtasks, {
     id   = sub_id,
     title= title,

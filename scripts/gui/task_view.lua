@@ -37,7 +37,7 @@ function TaskView.draw(parent, id, player)
   TaskViewHeader.draw(parent, task)
 
   -- Body
-  local body = parent.add { 
+  local body = parent.add {
     type = "frame",
     direction = "vertical",
     style = "inside_shallow_frame",
@@ -108,7 +108,7 @@ end
 --- Redraws the task HUD
 --- @param player? LuaPlayer
 function TaskView.redraw(player)
-  if not player then 
+  if not player then
     for _, player in pairs(game.players) do
       _reload(player, gui)
     end
@@ -198,7 +198,7 @@ function TaskView.handle_click(event, player, element, gui)
       end
     end
     return true
-  
+
   elseif name:find(edit_frame_prefix, 1, true) == 1 then -- Edit task
     local task_id = tonumber(name:sub(#edit_frame_prefix + 1))
     if task_id then
@@ -263,7 +263,7 @@ function TaskView.handle_click(event, player, element, gui)
     local task_id = State.get_selected_task_id(player)
     if not task_id then return end
 
-    
+
     local location = Tasks.get_location(task_id)
     local position, surface = location.position, location.surface
 
@@ -332,6 +332,6 @@ function TaskView.handle_selection_state_changed(player, element)
     end
     return true
   end
-  
+
   return false
 end

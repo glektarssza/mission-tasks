@@ -60,7 +60,7 @@ function Settings.set(player_index, field, value)
       if value then
         TaskHud.redraw(player)
       else
-        TaskHud.destroy(player)        
+        TaskHud.destroy(player)
       end
     elseif field == "show_subtasks_hud" then
       TaskHud.redraw(player)

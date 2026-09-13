@@ -44,7 +44,7 @@ function ExportFrame.draw(player)
   textbox.style.width = 480
 
   ------------------------------------------------
-  
+
   GuiHelper.add_bottom_bar(frame, "mission-tasks-export-frame", { "export-frame.close-button" })
 end
 
