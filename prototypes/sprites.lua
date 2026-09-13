@@ -2,7 +2,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-pencil-white-icon",
-    filename = "__mission-tasks__/graphics/icons/pencil_white_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/pencil_white_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -10,7 +10,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-pencil-black-icon",
-    filename = "__mission-tasks__/graphics/icons/pencil_black_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/pencil_black_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -18,7 +18,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-trash-white-icon",
-    filename = "__mission-tasks__/graphics/icons/trash_white_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/trash_white_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -26,7 +26,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-menu-white-icon",
-    filename = "__mission-tasks__/graphics/icons/menu_white_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/menu_white_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -34,7 +34,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-menu-black-icon",
-    filename = "__mission-tasks__/graphics/icons/menu_black_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/menu_black_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -42,7 +42,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-map-white-icon",
-    filename = "__mission-tasks__/graphics/icons/map_white_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/map_white_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -50,7 +50,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-map-black-icon",
-    filename = "__mission-tasks__/graphics/icons/map_black_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/map_black_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -58,7 +58,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-cross-white-icon",
-    filename = "__mission-tasks__/graphics/icons/cross_white_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/cross_white_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -66,7 +66,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-cross-black-icon",
-    filename = "__mission-tasks__/graphics/icons/cross_black_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/cross_black_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -74,7 +74,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-cog-white-icon",
-    filename = "__mission-tasks__/graphics/icons/cog_white_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/cog_white_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -82,7 +82,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-cog-black-icon",
-    filename = "__mission-tasks__/graphics/icons/cog_black_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/cog_black_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -90,7 +90,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-info-white-icon",
-    filename = "__mission-tasks__/graphics/icons/info_white_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/info_white_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -98,7 +98,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-info-black-icon",
-    filename = "__mission-tasks__/graphics/icons/info_black_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/info_black_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -106,7 +106,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-rollback-white-icon",
-    filename = "__mission-tasks__/graphics/icons/rollback_white_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/rollback_white_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -114,7 +114,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-rollback-black-icon",
-    filename = "__mission-tasks__/graphics/icons/rollback_black_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/rollback_black_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -122,7 +122,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-plus-white-icon",
-    filename = "__mission-tasks__/graphics/icons/plus_white_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/plus_white_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -130,7 +130,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-plus-black-icon",
-    filename = "__mission-tasks__/graphics/icons/plus_black_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/plus_black_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -138,7 +138,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-upload-white-icon",
-    filename = "__mission-tasks__/graphics/icons/upload_white_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/upload_white_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -146,7 +146,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-upload-black-icon",
-    filename = "__mission-tasks__/graphics/icons/upload_black_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/upload_black_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -154,7 +154,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-download-white-icon",
-    filename = "__mission-tasks__/graphics/icons/download_white_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/download_white_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -162,7 +162,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-download-black-icon",
-    filename = "__mission-tasks__/graphics/icons/download_black_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/download_black_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -170,7 +170,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-copy-white-icon",
-    filename = "__mission-tasks__/graphics/icons/copy_white_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/copy_white_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -178,7 +178,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-copy-black-icon",
-    filename = "__mission-tasks__/graphics/icons/copy_black_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/copy_black_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -186,7 +186,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-map-pin-white-icon",
-    filename = "__mission-tasks__/graphics/icons/map_pin_white_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/map_pin_white_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -194,7 +194,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-map-pin-black-icon",
-    filename = "__mission-tasks__/graphics/icons/map_pin_black_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/map_pin_black_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -202,7 +202,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-chevrons-up-white-icon",
-    filename = "__mission-tasks__/graphics/icons/chevrons_up_white_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/chevrons_up_white_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -210,7 +210,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-chevrons-up-black-icon",
-    filename = "__mission-tasks__/graphics/icons/chevrons_up_black_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/chevrons_up_black_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -218,7 +218,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-chevrons-down-white-icon",
-    filename = "__mission-tasks__/graphics/icons/chevrons_down_white_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/chevrons_down_white_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -226,7 +226,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-chevrons-down-black-icon",
-    filename = "__mission-tasks__/graphics/icons/chevrons_down_black_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/chevrons_down_black_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -234,7 +234,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-chevrons-right-white-icon",
-    filename = "__mission-tasks__/graphics/icons/chevrons_right_white_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/chevrons_right_white_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -242,7 +242,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-chevrons-right-black-icon",
-    filename = "__mission-tasks__/graphics/icons/chevrons_right_black_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/chevrons_right_black_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -250,7 +250,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-square-white-icon",
-    filename = "__mission-tasks__/graphics/icons/square_white_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/square_white_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -258,7 +258,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-square-black-icon",
-    filename = "__mission-tasks__/graphics/icons/square_black_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/square_black_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -266,7 +266,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-square-checked-white-icon",
-    filename = "__mission-tasks__/graphics/icons/square_checked_white_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/square_checked_white_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -274,7 +274,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-square-checked-black-icon",
-    filename = "__mission-tasks__/graphics/icons/square_checked_black_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/square_checked_black_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -282,7 +282,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-earth-white-icon",
-    filename = "__mission-tasks__/graphics/icons/earth_white_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/earth_white_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -290,7 +290,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-earth-black-icon",
-    filename = "__mission-tasks__/graphics/icons/earth_black_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/earth_black_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -298,7 +298,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-flag-yellow-black-icon",
-    filename = "__mission-tasks__/graphics/icons/flag_yellow_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/flag_yellow_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -306,7 +306,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-hammer-blue-icon",
-    filename = "__mission-tasks__/graphics/icons/hammer_blue_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/hammer_blue_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },
@@ -314,7 +314,7 @@ data:extend({
   {
     type = "sprite",
     name = "mission-tasks-circle-checked-green-icon",
-    filename = "__mission-tasks__/graphics/icons/circle_checked_green_24.png",
+    filename = "__mission-tasks-2_1__/graphics/icons/circle_checked_green_24.png",
     width = 24,
     height = 24,
     flags = { "icon" },

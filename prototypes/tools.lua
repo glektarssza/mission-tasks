@@ -2,11 +2,11 @@ data:extend({
   {
     type = "selection-tool",
     name = "task-location-selector",
-    -- icon = "__mission-tasks__/graphics/icons/map_white.png",
+    -- icon = "__mission-tasks-2_1__/graphics/icons/map_white.png",
     -- icon_size = 24,
     icons = {
       {
-        icon = "__mission-tasks__/graphics/sprites/location_selector.png",
+        icon = "__mission-tasks-2_1__/graphics/sprites/location_selector.png",
         icon_size = 64,
         scale = 0.5
       }
